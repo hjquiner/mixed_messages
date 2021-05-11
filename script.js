@@ -5,4 +5,6 @@ const numReps = Math.floor(Math.random() * 15)
 const numSets = Math.floor(Math.random() * 10)
 
 // message selections
-const exerciseGenerator = randomExercise + ': ' + numReps + ' number of reps and ' + numSets + ' number of sets'
+const exerciseGenerator = randomExercise + ': ' + numReps + ' reps and ' + numSets + ' sets.'
+
+console.log(exerciseGenerator)
